@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="/javascript/javascript.js"></script>
+	<title>Home Page - Team Liquid</title>
+	<link rel="stylesheet" href="css/css.css" />
+</head>
+<body>
+    <header>
+	<div class = "header">
+		<h1>Team Liquid</h1>
+		<img src= "images/logo.png" class = "logo">
+	</div>
+        <nav class="topbar">
+        
+	<div class="container">
+                    <ul class="navigationList">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lol/lol.html">League of Legends</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="csgo/csgo.html">Counter-Strike: Global Offensive</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="apex/apex.html">Apex Legends</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+<div class="container">
+        <main role="main" class="pb-3">
+            
+<div class="teamHeader">
+    <h1>Team Liquid E-Sports</h1>
+</div>
+<div class="row">
+    <div class="columns">
+        <h2>League Of Legends</h2>
+	<p onmouseover="textColor(this,'blue')" onmouseout="textColor(this,'black')">
+		Team Liquid has been a part of the League Championship Series since 2015 and has seen a lot of recent success from it's players.
+        </p>
+	<a href= "lol/lol.html"> League Of Legends Team Page &raquo</a><br>
+	<img src = "images/LeagueOfLegends.jpg" class = "league" style = "width:100%; height:100%;">
+	
+
+    </div>
+    <div class="columns">
+        <h2>Counter-Strike:Global Offensive</h2>
+        <p onmouseover="textColor(this,'blue')" onmouseout="textColor(this,'black')">
+		Team Liquid was introduced into Competitive CS:GO in 2015, picking up former Denial eSports team.
+
+	</p>
+	<a href="csgo/csgo.html">Counter-Strike Team Page &raquo</a><br>
+	<img src = "images/CounterStrike.jpg" class = "CSGO" style = "width: 45%; height:50%;">
+        
+    </div>
+    <div class="columns">
+        <h2>Apex Legends</h2>
+        <p onmouseover="textColor(this,'blue')" onmouseout="textColor(this,'black')">Apex Legends is a more recent game where Team Liquid joined in 2019.</p><br>
+        <a href="apex/apex.html">Apex Legends Team Page &raquo</a><br>
+	<img src = "images/ApexLegends.jpg" class = "APEX" style = "width:100%;height25%;">
+    </div>
+</div>
+</main>
+<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy;  2020 - Brian Do, Erik Aramaki, Jacob Manio, Nicholas Smith for Team Liquid <br>
+            Click here for Social Media
+        </div>
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $("footer").click(function(){
+    alert("Social Media: \nYouTube: https://www.youtube.com/teamliquid \nTwitter: @TeamLiquid \nInstagram: @teamliquid \nTwitch: https://www.twitch.tv/team/teamliquid");
+  });
+});
+function textColor(elmnt, clr) {
+  elmnt.style.color = clr;
+}
+
+
+    </script>
+    
+    </footer>
+</body>
+</html>

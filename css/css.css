@@ -1,0 +1,60 @@
+nav.topbar{
+	background-color:#100845;
+	padding: 30px;
+  	text-align: center;
+  	color: white;
+  	font-size: 30px;
+}
+a.nav-link{
+    word-spacing: 3px;
+    letter-spacing:1px;
+    color: white;
+    padding-right:10px;
+}
+li{
+	color:white;
+	display:inline;
+}
+.container{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.logo{
+ float:left;
+}
+.header{
+  padding: 60px;
+  text-align: center;
+  background: #100845;
+  color: white;
+  font-size: 30px;
+}
+.row{
+	column-count:3
+;
+}
+.CSGO{
+ padding-left: 150px;
+}
+.footer {
+  background-color: #100845;
+  bottom: 0;
+  width: 100%;
+  color:white;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.rowlol{
+	column-count:5
+;
+}
+.rowlolcoach{
+	column-count:5
+;
+}
+.rowlolsubs{
+	column-count:1
+;
+}
+
